@@ -1,0 +1,23 @@
+package companyassignment;
+
+public class EmailVerification {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String email="imy@gmail.com";
+		int a1=email.indexOf('@'),a2=email.indexOf('.');
+		System.out.println(((a1-1)>=3&&(a2-a1)>3&&(email.length()-a2)>2) ? "Valid" : "Not Valid");
+			
+//		int k,j;
+//		for(int i=0;i<email.length();i++) {
+//			
+//		}
+//		i=0; j=email.length()-1;
+//		boolean atTheRate=false, fullStop=false;
+//		while(i!=j) {
+//			
+//			i++;j--;
+//		}
+	}
+
+}

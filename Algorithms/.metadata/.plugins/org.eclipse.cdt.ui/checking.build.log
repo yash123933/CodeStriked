@@ -1,0 +1,7 @@
+23:54:57 **** Rebuild of configuration Debug for project checking ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\checking.o" "..\\src\\checking.c" 
+gcc -o checking.exe "src\\checking.o" 
+
+23:55:04 Build Finished (took 7s.726ms)
+

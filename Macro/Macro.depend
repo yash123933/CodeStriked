@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1488785647 source:d:\myprof\macro\main.c
+	<stdio.h>
+	<string.h>
+

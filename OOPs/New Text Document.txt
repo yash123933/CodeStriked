@@ -1,0 +1,115 @@
+------------------------------------------------------------DAY1----------------------------------------------------------
+\\192.168.100.41
+pc1
+Newuser123
+
+
+system
+Newuser123
+
+
+single row function:
+chracter
+general
+conversion
+date
+number
+
+case: lower upper initcap
+character: concat substr length instr lpad| rpad trim replace
+
+months_between
+add_months
+next_day
+last_day
+round
+trunc
+
+conversion funtions data type:
+implicit: var/char(to_char) - number/date(to_number,to_date), number/date-varchar2 
+explicit:
+
+general funtions:
+nvl
+nvl2
+nullif
+coalesce
+
+group funtions:
+avg
+count
+max
+min
+stdev
+sum
+variance
+
+group will be  have having cluase
+
+joins :
+cross, natural, using cluse, full outer joins, arbitrary join condition for outer join
+use the using clause to match only one column when more then one column matches.
+the join condition for the natural join we use on.
+equi join is the one where equal to sign is used within the attributes.
+Online Shooping:
+User details: User id, Name, Mail id, Phone number, Address, current Payment type(from Payment type).
+
+Product:
+Product name, Product id(Primary key), Product selling Price, Manufacturer id(from Manufacturer)
+
+Manufacturer Details:
+Manufacturer name, id, address, Manufacturer selling price, contact number, Product id(from Product).
+
+Payment:
+User id(from user details), payment id, order date, order delivery date, payment method, voucher id(From voucher).
+
+Bookings:
+User id(from user details), Payment id(from Payment), order date(from payment), order delivery date(from Payment)
+
+Payemnt type:
+Type id, name
+
+Card:
+type id(from payment type), Card name, card validity, card number;
+
+Voucher:
+Voucher id, voucher validity, voucher discount price.
+
+--------------------------------------day 2---------------------------------------
+
+ SubQueires
+-----DML
+use Parantheses/order by is not needed/use single-row operdator with single same with multiple.
+single row/Multi row subqueires
+**check having
+multiple row queries:
+in, any, all(check it later)
+
+when you delete you can rollback bt you cannot rollback in truncate(try it)
+
+we are allowed  to insert and delete the record from in dual as sysuser
+
+primary key never gets alter because its a unique contraint.
+
+rownum to represent row
+
+----DDL
+objects: table view(simple, complex) sequence index synonym
+indexes are mainted by binary tree....primary key is built in index.
+synonym is alternate name to objects.
+
+Contraints:
+not null, unque, primary key, foreign key, check
+we can enable disable the constraints.
+we can find constraints in data dictionary.
+column level/table level constraints.
+Null values in allowed in foregin key constraints.
+foreign key contraints: foreign key, references, on delete cascade, on set null.
+try operation on views
+check option constarints is used in view to check for constarints when inserting in views
+nextval returns next available sequence.
+currval returns current sequence value.
+applying sequences to table (to try)
+when to create:when wide range, large number of null values, in a where clause or a join
+
+

@@ -1,0 +1,25 @@
+package companyassignment;
+
+import java.awt.List;
+import java.util.ArrayList;
+
+public class Members {
+	public String name;
+	private ArrayList<String> items = new ArrayList<String>();
+	public Members(String name) {
+		this.name=name;
+	}
+	public void setBooks(String book) {
+		items.add(book);
+		//System.out.println(name+ book);
+	}
+	public void getBooks() {
+		for(String i : items)
+			System.out.println(i);
+	}
+	public void removeBooks(String bookName) {
+		items.remove(bookName);
+	}
+	
+	
+}

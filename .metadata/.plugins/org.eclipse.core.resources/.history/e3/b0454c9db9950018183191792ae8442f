@@ -1,0 +1,26 @@
+package companyassignment;
+public class Books {
+	private static int bookCount=0;
+	String mybook;
+	Members member;
+	public Books(String myboo) {
+		mybook=myboo;
+	}
+	public void issueBook(Members member) {
+		if(bookCount==0) {
+			this.member=member;
+			//System.out.println(mybook);
+			member.setBooks(mybook);
+		}
+		else
+			System.out.println("Book not available");
+	}
+	public void getMembers() {
+		System.out.println(member.name);
+	}
+	public void returnBook() {
+		bookCount=0;
+		this.member=null;
+	}
+	
+}

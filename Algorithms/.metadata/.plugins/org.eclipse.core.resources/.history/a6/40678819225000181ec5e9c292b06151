@@ -1,0 +1,17 @@
+
+public class dukan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double interest=0,initial_ammount=800000;
+		for(int i=0;i<139;i++){
+			interest=(double)(initial_ammount*0.005);
+			initial_ammount+=interest;
+			//initial_ammount-=5000;
+		}
+		initial_ammount+=9100000/3+8530000/3;
+		System.out.println(initial_ammount);
+		System.out.println(2700000/139);
+	}
+
+}

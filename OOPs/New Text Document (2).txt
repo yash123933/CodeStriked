@@ -1,0 +1,23 @@
+variable:
+scalar, composite, refrence, large objects, bind variables
+cursor is pointer to private memory area
+declare-open-fetch---empty--close.
+cursor: (xyz cursor name)%isopen, (xyz cursor name)%notfound, (xyz cursor name)%found, (xyz cursor name)%rowcount
+we can use cursor directly in for loop
+we can also pass parameters to cursor so it will operate on different values every time
+exception: no_data_found, Too_many_rows, Invalid_cursor, zero_devide, dup_val_on_index
+sqlcoode and sqlerrm is exception error massage
+try exception
+preocecures can be used many times and also combined once.
+can be stored in the database as a schema objects.promotes reusability and maintainbility
+IN parameter is constant and by default.
+all the objects are present in user_objects(select * from user_objects where object_type='PROCEDURE')
+callable function:
+1. be stored in the database.
+2.only in valid data and not pl/sql specific types
+3. return valid sql fdata types and not pl/sql specific
+
+when calling functions:
+1.parameter must be in position.
+2.you should have privilege to execute funtion.
+

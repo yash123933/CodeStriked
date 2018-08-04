@@ -1,0 +1,8 @@
+package companyassignment;
+
+public class Books {
+	public Books("Xyz") {
+		// TODO Auto-generated constructor stub
+		
+	}
+}

@@ -1,0 +1,26 @@
+-- VERSION_4
+-- START DISKCACHE_2
+D:\MyProf\Algorithms\.metadata\.plugins\org.eclipse.core.resources\.projects\pythonWorks\com.python.pydev.analysis\v2_indexcache
+missing_data|1473205100000000000|D:\MyProf\Algorithms\pythonWorks\missing_data.py
+categorical_data|1519477998798463000|D:\MyProf\Algorithms\pythonWorks\categorical_data.py
+data_preprocessing_template|1508483942535157000|D:\MyProf\Algorithms\pythonWorks\data_preprocessing_template.py
+data_preprocessing|1508314804590726000|D:\MyProf\Algorithms\pythonWorks\data_preprocessing.py
+-- END DISKCACHE
+-- START DICTIONARY
+3
+2=missing_data
+3=categorical_data
+1=data_preprocessing_template
+-- END DICTIONARY
+-- START TREE 1
+6
+X|2|X!11@X!19@
+aud|1|audio!27@
+dat|2|dataset!11@dataset!19@
+imp|2|imputer!11@imputer!19@
+r|1|r!27@
+y|2|y!11@y!19@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

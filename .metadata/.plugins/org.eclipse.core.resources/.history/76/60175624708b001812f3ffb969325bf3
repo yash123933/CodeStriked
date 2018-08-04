@@ -1,0 +1,25 @@
+
+public class ReapeatAndMissingNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(Math.sqrt(5));
+
+	}
+	 public int[] repeatedNumber(final int[] A) {
+		 int b[]=new int[2];
+		 A[0]=A[0]*A[0];
+		 for(int i=1;i<A.length;i++) {
+			 A[i]=(int) Math.pow(A[i], 2)+A[i-1];
+		 }
+		 for(int i=1;i<=A.length;i++)
+			 A[0]+=i*i;
+		 int x,y;
+		 for(int i=1;i<=A.length;i++) {
+			
+		 }
+		 
+		 return A;
+	 }
+
+}

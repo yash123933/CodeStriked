@@ -1,0 +1,33 @@
+
+public class MinCostClimbingStairss {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int cost[]=new int[]{1,2,3,1,4,5};
+		int a[][]=new int[cost.length+1][cost.length+2];	
+			a[0][1]=cost[0];
+			a[1][1]=cost[0]+1;
+			a[1][0]=0;
+			a[0][0]=0;
+			for(int i=2;i<cost.length+2;i++)
+			{
+				a[0][i]=min(i-1,2,a)+cost[i-1];
+				a[1][i]=min(i-2,2,a)+cost[i-1];
+			}
+		
+	}
+
+	private static int min(int k, int j,int a[][]) {
+		// TODO Auto-generated method stub
+		if(k==0)
+			return 0;
+		int min=1000;
+		for(int i=0;i<2;i++)
+		{
+			if(min>a[i][k])
+				min=a[i][k];
+		}
+		return min;
+	}
+
+}

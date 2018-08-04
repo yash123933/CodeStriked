@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1459666010 source:d:\puzzle\main.c
+	<stdio.h>
+	<stdlib.h>
+

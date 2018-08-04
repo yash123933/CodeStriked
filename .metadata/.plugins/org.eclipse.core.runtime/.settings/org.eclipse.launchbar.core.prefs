@@ -1,0 +1,16 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:DeleteAndEarn,org.eclipse.launchbar.core.descriptorType.default\:dukan,org.eclipse.launchbar.core.descriptorType.default\:LoopAssignmnet,org.eclipse.launchbar.core.descriptorType.default\:IfelseLadder,org.eclipse.launchbar.core.descriptorType.default\:ControlAssignmnet,org.eclipse.launchbar.core.descriptorType.default\:Variable_Assignment,org.eclipse.launchbar.core.descriptorType.default\:ExceptionHandling,org.eclipse.launchbar.core.descriptorType.default\:ThreadMain,org.eclipse.launchbar.core.descriptorType.default\:Pract2,org.eclipse.launchbar.core.descriptorType.default\:Pract,org.eclipse.launchbar.core.descriptorType.default\:ReverseString,org.eclipse.launchbar.core.descriptorType.default\:reverseWords,org.eclipse.launchbar.core.descriptorType.default\:ReverseInt,org.eclipse.launchbar.core.descriptorType.default\:SpiralMatrix,org.eclipse.launchbar.core.descriptorType.default\:MinStepsInFiniteGrid,org.eclipse.launchbar.core.descriptorType.default\:MAXSPPROD,org.eclipse.launchbar.core.descriptorType.default\:ReapeatAndMissingNumber,org.eclipse.launchbar.core.descriptorType.default\:EmailVerification,org.eclipse.launchbar.core.descriptorType.default\:testme
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:ControlAssignmnet/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:ControlAssignmnet/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:DeleteAndEarn/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:DeleteAndEarn/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:EmailVerification/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:LoopAssignmnet/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:MAXSPPROD/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:ReapeatAndMissingNumber/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:ReverseInt/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:SpiralMatrix/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:testme/activeLaunchMode=run

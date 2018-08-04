@@ -1,0 +1,29 @@
+
+public class MinStepsInFiniteGrid {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int A[]= {0,3,2};
+		int B[]= {0,2,1};
+		int x=coverPoints(A,B);
+		System.out.println(x);
+	}
+
+	private static int coverPoints(int[] A, int[] B) {
+		// TODO Auto-generated method stub
+		int value=0;
+		for(int i=1;i<A.length;i++) {
+			value+=max(Math.abs(A[i]-A[i-1]),Math.abs(B[i]-B[i-1]));
+		}
+		return value;
+	}
+
+	private static int max(int i, int j) {
+		// TODO Auto-generated method stub
+		if(i>=j)
+			return i;
+		else
+			return j;
+	}
+
+}

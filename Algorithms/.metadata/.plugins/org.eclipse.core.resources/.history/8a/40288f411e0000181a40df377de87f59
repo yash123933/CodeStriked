@@ -1,0 +1,27 @@
+
+public class TwoKeys {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n=21,sum=0;
+		while(n!=1){
+			if(n%2==0){
+				n=n/2;
+				sum+=n;
+			}
+			else if(n%3==0){
+				n=n/3;
+				sum+=n;
+			}
+			else if(n%5==0){
+				n=n/5;
+				sum+=n;
+			}
+			else{
+				n=n/7;
+				sum+=n;
+			}
+		}
+	}
+
+}

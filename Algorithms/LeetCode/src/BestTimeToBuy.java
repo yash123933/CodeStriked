@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class BestTimeToBuy {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//int a[]=new int[]{1,3,2,4,6,5,3};
+		//maxprofit(a);
+		double s=myAtoi("-2147483648");
+		System.out.println(s);
+		
+	}
+
+	private static void maxprofit(int[] prices) {
+		// TODO Auto-generated method stub
+		int min=0,profit=0;
+		for(int i=1;i<prices.length;i++){
+			
+		}
+		
+	}
+	public static double myAtoi(String str) {
+        int value;
+        if(str.charAt(0)=='-')
+            value=0;
+        else
+            value=1;
+        double  ans=0;
+        if(value==1)
+            for(int i=0;i<str.length();i++)
+                ans=(int) (ans+((str.charAt(i)-'0')*Math.pow(10,str.length()-i-1)));
+        else{
+            for(int i=1;i<str.length();i++)
+                ans=(int) (ans+((str.charAt(i)-'0')*Math.pow(10,str.length()-i-1)));
+            ans=0-ans;
+        }
+		return ans;
+        
+    }
+
+}

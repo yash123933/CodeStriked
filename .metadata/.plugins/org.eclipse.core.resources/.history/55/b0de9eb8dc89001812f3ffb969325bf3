@@ -1,0 +1,49 @@
+import java.util.Stack;
+
+public class MAXSPPROD {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a[]= {5,4,6};
+		int x=maxSpecialProduct(a);
+		System.out.println(x);
+	}
+	static int mod=1000000007;
+    public static int maxSpecialProduct(int[] A) {
+        int[] ls=new int[A.length];
+        int[] rs=new int[A.length];
+        
+        Stack<Integer> stack=new Stack<>();
+        stack.push(0);
+        int i=1;
+        while(i<A.length){
+            if(!stack.empty() && A[i]>=A[stack.peek()]) stack.pop();
+            else {
+                int lsv=0;
+                if(!stack.empty()) lsv=stack.peek();
+                ls[i]=lsv;
+                stack.push(i);
+                i++;
+            }
+        }
+        stack.clear();
+        stack.push(A.length-1);
+        i=A.length-2;
+        while(i>=0){
+            if(!stack.empty() && A[i]>=A[stack.peek()]) stack.pop();
+            else {
+                int rsv=0;
+                if(!stack.empty()) rsv=stack.peek();
+                rs[i]=rsv;
+                stack.push(i);
+                i--;
+            }
+        }
+        
+        long max=0;
+        for(int j=1; j<A.length-1; j++)
+            max=Math.max(1L*ls[j]*rs[j], max);
+        return (int)(max%mod);
+    }
+
+}

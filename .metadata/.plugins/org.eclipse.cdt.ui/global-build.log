@@ -1,0 +1,65 @@
+12:02:40 **** Rebuild of configuration Debug for project checking ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\checking.o" "..\\src\\checking.c" 
+Cannot run program "gcc": Launching failed
+
+Error: Program "gcc" not found in PATH
+PATH=[\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\app\Yk~\virtual\product\12.2.0\dbhome_1\bin;C:\app\Yk~\product\12.1.0\dbhome_1\bin;C:\app\yash\product\12.1.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Yk~\AppData\Local\Microsoft\WindowsApps;C:\Users\Yk~\AppData\Roaming\npm;Y:\eclipse]
+
+
+**** Build of configuration Debug for project jjn ****
+
+Nothing to build for project jjn
+13:38:21 **** Incremental Build of configuration Debug for project checking ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\checking.o" "..\\src\\checking.c" 
+Cannot run program "gcc": Launching failed
+
+Error: Program "gcc" not found in PATH
+PATH=[\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\app\Yk~\virtual\product\12.2.0\dbhome_1\bin;C:\app\Yk~\product\12.1.0\dbhome_1\bin;C:\app\yash\product\12.1.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Yk~\AppData\Local\Microsoft\WindowsApps;C:\Users\Yk~\AppData\Roaming\npm;Y:\eclipse]
+
+
+**** Build of configuration Debug for project jjn ****
+
+Nothing to build for project jjn
+00:49:20 **** Incremental Build of configuration Debug for project checking ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\checking.o" "..\\src\\checking.c" 
+Cannot run program "gcc": Launching failed
+
+Error: Program "gcc" not found in PATH
+PATH=[\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\app\Yk~\virtual\product\12.2.0\dbhome_1\bin;C:\app\Yk~\product\12.1.0\dbhome_1\bin;C:\app\yash\product\12.1.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Yk~\AppData\Local\Microsoft\WindowsApps;C:\Users\Yk~\AppData\Roaming\npm;Y:\eclipse]
+
+
+**** Build of configuration Debug for project jjn ****
+
+Nothing to build for project jjn
+00:50:55 **** Incremental Build of configuration Debug for project checking ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\checking.o" "..\\src\\checking.c" 
+Cannot run program "gcc": Launching failed
+
+Error: Program "gcc" not found in PATH
+PATH=[\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\app\Yk~\virtual\product\12.2.0\dbhome_1\bin;C:\app\Yk~\product\12.1.0\dbhome_1\bin;C:\app\yash\product\12.1.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Yk~\AppData\Local\Microsoft\WindowsApps;C:\Users\Yk~\AppData\Roaming\npm;Y:\eclipse]
+
+
+**** Build of configuration Debug for project jjn ****
+
+Nothing to build for project jjn
+19:48:57 **** Incremental Build of configuration Debug for project checking ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\checking.o" "..\\src\\checking.c" 
+Cannot run program "gcc": Launching failed
+
+Error: Program "gcc" not found in PATH
+PATH=[\bin;\bin;\usr\bin;C:/Program Files/Java/jre1.8.0_171/bin/server;C:/Program Files/Java/jre1.8.0_171/bin;C:/Program Files/Java/jre1.8.0_171/lib/amd64;C:\app\Yk~\virtual\product\12.2.0\dbhome_1\bin;C:\app\Yk~\product\12.1.0\dbhome_1\bin;C:\app\yash\product\12.1.0\dbhome_1\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\Yk~\AppData\Local\Microsoft\WindowsApps;C:\Users\Yk~\AppData\Roaming\npm;Y:\eclipse]
+
+
+**** Build of configuration Debug for project jjn ****
+
+Nothing to build for project jjn

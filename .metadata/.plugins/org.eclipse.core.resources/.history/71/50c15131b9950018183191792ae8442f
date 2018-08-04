@@ -1,0 +1,18 @@
+package companyassignment;
+
+public class testme {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Books ak=new Books("OOPs");
+		//System.out.println(ak.mybook);
+		Books ak1=new Books("C++");
+		Members members=new Members("yash");
+		Members member=new Members("yash1");
+		ak.issueBook(members);
+		ak.issueBook(members);
+		ak1.issueBook(members);
+		members.getBooks();
+	}
+
+}
